@@ -22,7 +22,7 @@ const ContactList = () => {
     // to get the data from the api when the page gets rendered first time
     useEffect(() => {
         dispatch(contactThunk());
-    },[]);
+    });
 
 
     // render the page
